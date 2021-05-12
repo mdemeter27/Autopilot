@@ -1,6 +1,6 @@
 # Autopilot
 Created by Matthew Demeter and Tyler Edwards
 
-The goal of this project is to demonstrate our skills...
+The goal of this project is to demonstrate our skills with arudino, PID loop, and other hardware systems.
 
 test2
