@@ -5,11 +5,13 @@ void printData() {
   if (!serialConnected)return;
   Serial.print("Mode: ");
   Serial.println(mode);
-  for (int i = 1; i < 17; i++) {
+  Serial.print("Failsafe: ");
+  Serial.println(failSafe);
+  for (int i = 1; i < 8; i++) {
     Serial.print("Channel ");
     Serial.print(i);
     Serial.print(": ");
-    Serial.println(channels[i]);
+    Serial.println(map(channels[i], 172, 1810, 0, 180));
   }
 
   Serial.print("X: ");
